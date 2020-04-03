@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11248" started-at="2020-02-01T15:57:10 IST" finished-at="2020-02-01T15:57:22 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11248" started-at="2020-02-01T15:57:10 IST" finished-at="2020-02-01T15:57:22 IST">
+      <class name="apitesting.firstapicript">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:apitesting.firstapicript@65e2dbf3]" name="createUser" duration-ms="9072" started-at="2020-02-01T15:57:10 IST" finished-at="2020-02-01T15:57:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="deleteRecord()[pri:0, instance:apitesting.firstapicript@65e2dbf3]" name="deleteRecord" duration-ms="1004" started-at="2020-02-01T15:57:19 IST" finished-at="2020-02-01T15:57:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRecord -->
+        <test-method status="PASS" signature="getRecords()[pri:0, instance:apitesting.firstapicript@65e2dbf3]" name="getRecords" duration-ms="153" started-at="2020-02-01T15:57:20 IST" finished-at="2020-02-01T15:57:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRecords -->
+        <test-method status="PASS" signature="updateRecord()[pri:0, instance:apitesting.firstapicript@65e2dbf3]" name="updateRecord" duration-ms="962" started-at="2020-02-01T15:57:21 IST" depends-on-methods="apitesting.firstapicript.createUser" finished-at="2020-02-01T15:57:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateRecord -->
+      </class> <!-- apitesting.firstapicript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
